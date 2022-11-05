@@ -75,31 +75,3 @@ li:hover {
 
 
 
-div {
-    display: flex;
-}
-
-#section01 {
-    width: 100%;
-    align-items: center;
-    margin-top: 3%;
-
-
-}
-
-.section01-div {
-    width: 50%;
-    flex-direction: column;
-}
-
-.section01-div div {
-    flex-direction: row;
-    
-}
-
-.section01-div div img {
-    width: 23%;
-    height: fit-content;
-    border-radius: 20px;
-    margin: 1%;
-}
