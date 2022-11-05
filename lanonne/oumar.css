@@ -12,6 +12,7 @@ nav {
     justify-content: flex-end;
     height: 8vh;
     background-color: #00000059;
+    /*position: fixed;*/
 }
 
 ul {
@@ -93,4 +94,16 @@ h1{
 .j{
     height: 400px;
     margin-top: -60px;
+}
+
+.item4{
+    color: #ffffff;
+    margin: 5% 10% 0% 10%;
+    font-size: 28px;
+    font-family: 'Kanit', sans-serif;
+}
+.pj{
+    height: 400px;
+    margin-left: 20%;
+    margin-top: 13%;
 }
