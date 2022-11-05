@@ -50,7 +50,11 @@ h1{
 }
 .item1{
    color: #ffffff;
+   margin: 20% 20% ;
+   font-size: 30px;
+
 }
 .jpg{
     height: 400px;
+    margin-top: 20%;
 }
