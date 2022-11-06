@@ -147,3 +147,28 @@ div{
 .video{
     justify-content: center;
 }
+
+.bon{
+    flex: 50%;
+    justify-content: center;
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+    color: #2B0C0C;
+
+ }
+
+
+
+.family{
+    font-size: 24px;
+
+}
+
+.ah{
+    height: 10%;
+    width: 100%;
+    background-color: #b08f8f;
+}
