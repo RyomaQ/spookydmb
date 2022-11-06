@@ -245,3 +245,33 @@ li p {
     align-items: center;
     background-color: #1f1f1f;
 }
+
+#joker-gif {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    animation: jokerGif 4s infinite linear;
+    height: 25vh;
+}
+
+@keyframes jokerGif {
+    0%{
+        right: 0;
+    }
+    100%{
+        right: 100%;
+    }
+}
+
+.joker-run {
+    width: 12.5%;
+}
+
+#gif-bg {
+    position: absolute;
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    object-position: 0% 90%;
+
+}
