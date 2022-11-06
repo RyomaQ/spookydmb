@@ -202,3 +202,23 @@ div{
     height: 100%;
 
 }
+
+.arbre{
+    display: flex;
+}
+.rumeur{
+    padding: 5%;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+    color: #2B0C0C;
+    flex: 50%
+    
+  
+}
+
+.friend{
+    padding-left: 15%%;
+    height: 130%;
+}
+
+
