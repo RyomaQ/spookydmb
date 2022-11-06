@@ -237,3 +237,11 @@ li p {
     color: #000000;
     font-size: 28px;
 }
+
+#section05 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+}
