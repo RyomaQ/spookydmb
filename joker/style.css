@@ -1,0 +1,277 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 8vh;
+    background-color: #00000059;
+    position: absolute;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+    align-self: center;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-family: groupie-regular, sans-serif; */
+    font-weight: 600;
+    list-style: none;
+    transition: 0.3s;
+}
+
+li:hover {
+    text-decoration: line-through;
+}
+
+li p {
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+#section01 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #040402;
+}
+
+#section01 div {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+}
+
+#section01 div:nth-child(1){
+    justify-content: flex-start;
+}
+
+#section01 div:nth-child(2){
+    justify-content: flex-end;
+}
+
+
+#joker-title {
+    height: 100vh;
+    margin-left: 10%;
+    z-index: 1;
+}
+
+#scroll-btn:hover {
+    background-image: url(img/scrollBtnhover.svg);
+    animation: none;
+}
+
+#scroll-btn {
+    margin-bottom: 2vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    align-self: flex-end;
+    background-image: url(img/scrollBtn.svg);
+    width: 73px;
+    height: 96px;
+    background-size: cover;
+    z-index: 2;
+    animation: changeImg 1.8s infinite;
+}
+
+@keyframes changeImg {
+    0%{
+        background-image: url(img/scrollBtn.svg);
+    }
+    50% {
+        background-image: url(img/scrollBtndarker.svg);
+    }
+    100%{
+        background-image: url(img/scrollBtn.svg);
+    }
+}
+
+#section02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 90vh;
+    background-color: #7E346C;
+}
+
+#joker-bat {
+    position: absolute;
+    height: 90vh;
+    align-self: flex-start;
+}
+
+#square01 {
+    background: none;
+    border: 1px solid #ffffff;
+    width: 700px;
+    height: fit-content;
+    padding: 50px;
+    margin: 0 10% -10vh 0;
+}
+
+#square01 p {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+#section03 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    background-color: #E0E0E0;
+}
+
+#jerry-bob {
+    position: relative;
+    top: 20vh;
+    right: 10%;
+    width: 25%;
+}
+
+#square02 {
+    background: none;
+    border: 1px solid #000000;
+    width: 600px;
+    height: fit-content;
+    padding: 50px;
+    margin: 10vh 0 0 10%;
+}
+
+#square02 p {
+    color: #000000;
+    font-size: 24px;
+}
+
+#pop-culture {
+    width: 80%;
+    display: flex;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#square03 {
+    background: none;
+    border: 1px solid #000000;
+    width: 900px;
+    height: fit-content;
+    padding: 50px;
+}
+
+#funko {
+    margin: -5vh 0 0 0;
+    height: fit-content;
+}
+
+#square03 p {
+    color: #000000;
+    font-size: 24px;
+}
+
+#section04 {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    background-color: #EDDFC5;
+    align-items: center;
+    justify-content: center;
+}
+
+#section04-div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+    margin-right: 5%;
+}
+
+#joker-evo {
+    width: 80%;
+    height: fit-content;
+}
+
+#square04 {
+    background: none;
+    border: 1px solid #000000;
+    height: fit-content;
+    padding: 30px;
+}
+
+#square04 p {
+    color: #000000;
+    font-size: 28px;
+}
+
+#section05 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+}
+
+#joker-gif {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    animation: jokerGif 4s infinite linear;
+    height: 25vh;
+}
+
+@keyframes jokerGif {
+    0%{
+        right: 0;
+    }
+    100%{
+        right: 100%;
+    }
+}
+
+.joker-run {
+    width: 12.5%;
+}
+
+#gif-bg {
+    position: absolute;
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    object-position: 0% 90%;
+
+}
