@@ -241,3 +241,23 @@ div{
     justify-content: center;
 
 }
+
+
+#ke{
+    height: 100vh;
+    width: 100%;
+    background-color: #2B0C0C;
+ }
+ #nat{
+     width: 100%;
+ }
+ 
+ #ran{
+     position: absolute;
+     align-items: center;
+     width: 674px;
+     height: 265px;
+     margin-left: 50%;
+     transform: translateX(-50%);
+     margin-top: 35vh;
+ }
