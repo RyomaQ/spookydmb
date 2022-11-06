@@ -64,17 +64,55 @@ li:hover {
 .text1{
     width: 100%;
     margin-top:3%;
-  
- 
 
 }
 
+ 
+div{
+    display: flex;
+}
 
+ 
+#section {
 
+    width: 100%;
+    align-items: center;
+    margin-top: 3%; 
+ 
+}
+ 
+.perso1 {
+    width: 50%;
+    flex-direction: column;
+    margin-left: 3%;
+    padding-left: 5%;
 
+}
+ 
+.perso1 div {
+    flex-direction: row;
 
+   
+}
+ 
+.perso1 div img {
+    width: 23%;
+    height: fit-content;
+    border-radius: 20px;
+    margin: 1%;
+}
 
+#part1{
+    width: 50%;
+    flex-direction: column;
+    margin-left: 3%;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+    color: #2B0C0C;
+    padding-right:5%;    
+}
 
-
-
+.synopsis{
+    align-items: center;
+}
 
