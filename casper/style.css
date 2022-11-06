@@ -218,7 +218,26 @@ div{
 
 .friend{
     padding-left: 15%%;
-    height: 130%;
+    height: 100%;
 }
 
+.number{
+    padding: 5%;
+    font-size: 50px;
+    font-family: 'poppins', sans-serif;
+    color: #2B0C0C;
+    justify-content: center;
+    
+}
 
+.gagnant{
+    display: flex;
+
+}
+
+.machin{
+    flex: 25%;
+    padding: 5px;
+    justify-content: center;
+
+}
