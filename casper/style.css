@@ -135,3 +135,15 @@ div{
 .fille{
     border-radius: 20px;
 }
+
+
+
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.video{
+    justify-content: center;
+}
