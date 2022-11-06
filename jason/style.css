@@ -192,5 +192,22 @@
     color: #591620;
     font-size: 30px;
 }
-
-.
+.desc-perso{
+    color: #591620;
+    font-size: 20px;
+    border: 2px solid #591620;
+    border-radius: 10px;
+    padding: 15px;
+}
+.nice{ 
+    height: 500px ;
+    width: 500px;
+    border-radius: 15px;
+    
+}
+.cold{
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+    margin-left: 100px;
+}
