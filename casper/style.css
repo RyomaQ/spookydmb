@@ -170,5 +170,35 @@ div{
 .ah{
     height: 10%;
     width: 100%;
-    background-color: #b08f8f;
+    background-color: #b89c9c8f;
+}
+
+.troistext{
+    display: flex;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+    color: #2B0C0C;
+}
+
+.primo{
+    flex:33.33%;
+    padding: 5%;
+
+}
+
+.car{
+    background-color: #b89c9c8f;
+    height: 90%;
+
+}
+.la{
+    background-color: #b89c9c8f;
+    height: 90%;
+
+}
+
+.pa{
+    background-color: #b89c9c8f;
+    height: 100%;
+
 }
