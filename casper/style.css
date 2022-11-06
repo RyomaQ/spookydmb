@@ -112,7 +112,26 @@ div{
     padding-right:5%;    
 }
 
-.synopsis{
-    align-items: center;
+.row{
+    display: flex;
+}
+.colonne1{
+    flex: 50%;
+    padding: 5%;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+    color: #2B0C0C;
 }
 
+.commence {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fille{
+    border-radius: 20px;
+}
