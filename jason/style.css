@@ -125,7 +125,31 @@
 }
 
 .page4{
-    background-image: url(fond3.png);
+    background-image: url(fond3.png), url(jason2.png);
     height: 1000px;
 }
 
+.arme{
+    color: #e6e6e6;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.desc-arme{
+    border: 2px solid #979595;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 80px;
+    color:#d3d3d3;
+    margin-left: 20px;
+    margin-inline-start: 90px;
+    margin-top: 50px;
+}
+
+.jason2{
+    height: 500px;
+    width: 300px;
+    margin-left: 550px ;
+    margin-top: 50px;
