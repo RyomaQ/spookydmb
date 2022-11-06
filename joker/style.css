@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -81,19 +85,50 @@ li p {
     z-index: 1;
 }
 
+#scroll-btn:hover {
+    background-image: url(img/scrollBtnhover.svg);
+    animation: none;
+}
+
+#scroll-btn {
+    margin-bottom: 2vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    align-self: flex-end;
+    background-image: url(img/scrollBtn.svg);
+    width: 73px;
+    height: 96px;
+    background-size: cover;
+    z-index: 2;
+    animation: changeImg 1.8s infinite;
+}
+
+@keyframes changeImg {
+    0%{
+        background-image: url(img/scrollBtn.svg);
+    }
+    50% {
+        background-image: url(img/scrollBtndarker.svg);
+    }
+    100%{
+        background-image: url(img/scrollBtn.svg);
+    }
+}
+
 #section02 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-color: #7E346C;
 }
 
 #joker-bat {
     position: absolute;
-    height: 100vh;
+    height: 90vh;
     align-self: flex-start;
 }
 
@@ -123,6 +158,7 @@ li p {
     position: relative;
     top: 20vh;
     right: 10%;
+    width: 25%;
 }
 
 #square02 {
